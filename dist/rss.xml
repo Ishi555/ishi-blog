@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>blog</title><description>a blog.</description><link>https://ishi555.github.io</link><item><title>The first post</title><link>https://ishi555.github.io/blog/the-first-post</link><guid isPermaLink="true">https://ishi555.github.io/blog/the-first-post</guid><description>This is the first post.</description><pubDate>Wed, 19 Mar 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Title&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is rooted to latin from 45BC. It is used as dummy text. Like this: Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. See what I mean? Lorem ipsum was actually just lots of words in a different language that english, but people just used it as dummy text.&lt;/p&gt;</content:encoded></item><item><title>About Slate Blog</title><link>https://ishi555.github.io/blog/about-slate-blog</link><guid isPermaLink="true">https://ishi555.github.io/blog/about-slate-blog</guid><description>I use Obsidian to think, take notes, write essays, and publish this site. This is my bottom-up approach to note-taking and organizing things I am interested in. It embraces chaos and laziness to create emergent structure.</description><pubDate>Tue, 21 Jan 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Why We build it?&lt;/h2&gt;
+&lt;p&gt;We love writing and sharing, and we also appreciate great internet products. So we created this minimalist blogging product, focusing on content itself, providing a smooth and pure writing and reading experience, and built on the latest technology framework to make it faster and lighter.&lt;/p&gt;
+&lt;p&gt;It also works seamlessly with &lt;a href=&quot;https://obsidian.md/&quot;&gt;Obsidian&lt;/a&gt;, helping you turn your notes into published posts effortlessly.&lt;/p&gt;
+&lt;h2&gt;✨ Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Minimalist design theme&lt;/li&gt;
+&lt;li&gt;Mobile-first responsive layout&lt;/li&gt;
+&lt;li&gt;Light and dark mode support&lt;/li&gt;
+&lt;li&gt;Quick setup with zero configuration required&lt;/li&gt;
+&lt;li&gt;Draft mode with local preview and automatic production filtering&lt;/li&gt;
+&lt;li&gt;Built-in RSS feed with Follow authentication&lt;/li&gt;
+&lt;li&gt;Integrated Algolia search functionality&lt;/li&gt;
+&lt;li&gt;Comprehensive SEO optimization for better search rankings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🪜 Framework&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Astro + React + Typescript&lt;/li&gt;
+&lt;li&gt;Tailwindcss + @radix-ui/colors
+&lt;ul&gt;
+&lt;li&gt;Updated to &lt;a href=&quot;https://tailwindcss.com/blog/tailwindcss-v4&quot;&gt;Tailwind CSS v4.0&lt;/a&gt; (Jan 10, 2025)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Docsearch&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🔨 Usage&lt;/h2&gt;
+&lt;div&gt;&lt;figure&gt;&lt;figcaption&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;Terminal window&lt;/span&gt;&lt;/figcaption&gt;&lt;pre&gt;&lt;code&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;# Start local server&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;npm&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;run&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;dev&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;# or&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;yarn&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;dev&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;# or&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;pnpm&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;dev&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;# Build&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;npm&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;run&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;build&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;# or&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;yarn&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;build&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;# or&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;pnpm&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;build&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;h2&gt;🗂 Directory Structure&lt;/h2&gt;
+&lt;div&gt;&lt;figure&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;pre&gt;&lt;code&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;- plugins/            # Custom plugins&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;- src/&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;  &lt;/span&gt;&lt;/span&gt;&lt;span&gt;├── assets/         # Asset files&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;  &lt;/span&gt;&lt;/span&gt;&lt;span&gt;├── components/     # Components&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;  &lt;/span&gt;&lt;/span&gt;&lt;span&gt;├── content/        # Content collections&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;  &lt;/span&gt;&lt;/span&gt;&lt;span&gt;├── helpers/        # Business logic&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;  &lt;/span&gt;&lt;/span&gt;&lt;span&gt;├── pages/          # Pages&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;  &lt;/span&gt;&lt;/span&gt;&lt;span&gt;└── typings/        # Common types&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Articles are stored in the &lt;code&gt;src/content/post&lt;/code&gt; directory, supporting markdown and mdx formats. The filename is the path name. For example, &lt;code&gt;src/content/post/my-first-post.md&lt;/code&gt; =&amp;gt; &lt;code&gt;https://your-blog.com/blog/my-first-post&lt;/code&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Configuration&lt;/h2&gt;
+&lt;p&gt;Theme configuration is done through &lt;code&gt;slate.config.ts&lt;/code&gt; in the root directory.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Option&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;th&gt;Type&lt;/th&gt;&lt;th&gt;Default&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;site&lt;/td&gt;&lt;td&gt;Final deployment link&lt;/td&gt;&lt;td&gt;&lt;code&gt;string&lt;/code&gt;&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;title&lt;/td&gt;&lt;td&gt;Website title&lt;/td&gt;&lt;td&gt;&lt;code&gt;string&lt;/code&gt;&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;description&lt;/td&gt;&lt;td&gt;Website description&lt;/td&gt;&lt;td&gt;&lt;code&gt;string&lt;/code&gt;&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;lang&lt;/td&gt;&lt;td&gt;Language&lt;/td&gt;&lt;td&gt;&lt;code&gt;string&lt;/code&gt;&lt;/td&gt;&lt;td&gt;&lt;code&gt;zh-CN&lt;/code&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;theme&lt;/td&gt;&lt;td&gt;Theme&lt;/td&gt;&lt;td&gt;`{ mode: ‘auto&apos;&lt;/td&gt;&lt;td&gt;&apos;light&apos;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;avatar&lt;/td&gt;&lt;td&gt;Avatar&lt;/td&gt;&lt;td&gt;&lt;code&gt;string&lt;/code&gt;&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;sitemap&lt;/td&gt;&lt;td&gt;Website sitemap configuration&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://docs.astro.build/en/guides/integrations-guide/sitemap/&quot;&gt;SitemapOptions&lt;/a&gt;&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;readTime&lt;/td&gt;&lt;td&gt;Show reading time&lt;/td&gt;&lt;td&gt;&lt;code&gt;boolean&lt;/code&gt;&lt;/td&gt;&lt;td&gt;&lt;code&gt;false&lt;/code&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;lastModified&lt;/td&gt;&lt;td&gt;Show last modified time&lt;/td&gt;&lt;td&gt;&lt;code&gt;boolean&lt;/code&gt;&lt;/td&gt;&lt;td&gt;&lt;code&gt;false&lt;/code&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;algolia&lt;/td&gt;&lt;td&gt;Docsearch configuration&lt;/td&gt;&lt;td&gt;&lt;code&gt;{ appId: string, apiKey: string, indexName: string }&lt;/code&gt;&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;follow&lt;/td&gt;&lt;td&gt;Follow subscription authentication configuration&lt;/td&gt;&lt;td&gt;&lt;code&gt;{ feedId: string, userId: string }&lt;/code&gt;&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;footer&lt;/td&gt;&lt;td&gt;Website footer configuration&lt;/td&gt;&lt;td&gt;&lt;code&gt;{ copyright: string }&lt;/code&gt;&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;h3&gt;Algolia Application&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Deploy your site first&lt;/li&gt;
+&lt;li&gt;Apply for an &lt;code&gt;apiKey&lt;/code&gt; at &lt;a href=&quot;https://docsearch.algolia.com/apply/&quot;&gt;algolia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;After successful application, configure &lt;code&gt;algolia&lt;/code&gt; in &lt;code&gt;slate.config.ts&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Redeploy&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Follow Subscription Authentication&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Register a &lt;a href=&quot;https://follow.is/&quot;&gt;follow&lt;/a&gt; account&lt;/li&gt;
+&lt;li&gt;Deploy your site&lt;/li&gt;
+&lt;li&gt;Click the &lt;code&gt;+&lt;/code&gt; button on &lt;code&gt;follow&lt;/code&gt;, select &lt;code&gt;RSS&lt;/code&gt; subscription, and enter the &lt;code&gt;rss&lt;/code&gt; link (usually &lt;code&gt;[site]/rss.xml&lt;/code&gt;, where &lt;code&gt;site&lt;/code&gt; is the value of &lt;code&gt;site&lt;/code&gt; in &lt;code&gt;slate.config.ts&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Redeploy&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Article Frontmatter Description&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Option&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;th&gt;Type&lt;/th&gt;&lt;th&gt;Required&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;title&lt;/td&gt;&lt;td&gt;Article title&lt;/td&gt;&lt;td&gt;&lt;code&gt;string&lt;/code&gt;&lt;/td&gt;&lt;td&gt;Yes&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;description&lt;/td&gt;&lt;td&gt;Article description&lt;/td&gt;&lt;td&gt;&lt;code&gt;string&lt;/code&gt;&lt;/td&gt;&lt;td&gt;No&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;tags&lt;/td&gt;&lt;td&gt;Article tags&lt;/td&gt;&lt;td&gt;&lt;code&gt;string[]&lt;/code&gt;&lt;/td&gt;&lt;td&gt;No&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;draft&lt;/td&gt;&lt;td&gt;Whether it’s a draft. When not provided or &lt;code&gt;false&lt;/code&gt;, &lt;code&gt;pubDate&lt;/code&gt; must be provided; drafts are only visible in local preview&lt;/td&gt;&lt;td&gt;&lt;code&gt;boolean&lt;/code&gt;&lt;/td&gt;&lt;td&gt;No&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;pubDate&lt;/td&gt;&lt;td&gt;Article publication date&lt;/td&gt;&lt;td&gt;&lt;code&gt;date&lt;/code&gt;&lt;/td&gt;&lt;td&gt;No, required when &lt;code&gt;draft&lt;/code&gt; is &lt;code&gt;false&lt;/code&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;For more details, check the &lt;code&gt;src/content/config.ts&lt;/code&gt; file&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;Example&lt;/h3&gt;
+&lt;div&gt;&lt;figure&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;pre&gt;&lt;code&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;---&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;title&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;40 questions&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;description&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;This repo maintains revisons and translations to the list of 40 questions I ask myself each year and each decade.&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;tags&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;  &lt;/span&gt;&lt;/span&gt;&lt;span&gt;- &lt;/span&gt;&lt;span&gt;Life&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;  &lt;/span&gt;&lt;/span&gt;&lt;span&gt;- &lt;/span&gt;&lt;span&gt;Thinking&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;  &lt;/span&gt;&lt;/span&gt;&lt;span&gt;- &lt;/span&gt;&lt;span&gt;Writing&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;pubDate&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;2025-01-06&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;---&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;h2&gt;Markdown Syntax Support&lt;/h2&gt;
+&lt;p&gt;In addition to standard Markdown syntax, the following extended syntax is supported:&lt;/p&gt;
+&lt;h3&gt;Basic Syntax&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Headers, lists, blockquotes, code blocks and other basic syntax&lt;/li&gt;
+&lt;li&gt;Tables&lt;/li&gt;
+&lt;li&gt;Links and images&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bold&lt;/strong&gt;, &lt;em&gt;italic&lt;/em&gt;, and strikethrough text&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Extended Syntax&lt;/h3&gt;
+&lt;h4&gt;Container syntax&lt;/h4&gt;
+&lt;p&gt;Using &lt;code&gt;:::&lt;/code&gt; markers&lt;/p&gt;
+&lt;div&gt;&lt;figure&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;pre&gt;&lt;code&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;:::info&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;This is an information prompt&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;:::&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;p&gt;The result will be displayed as:&lt;/p&gt;
+&lt;div&gt;&lt;p&gt;
+This is an information prompt&lt;/p&gt;&lt;/div&gt;
+&lt;h4&gt;LaTeX Mathematical Formulas&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Inline formula: &lt;span&gt;&lt;span&gt;E=mc2E = mc^2&lt;/span&gt;&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;E&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;m&lt;/span&gt;&lt;span&gt;&lt;span&gt;c&lt;/span&gt;&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;span&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Block formula: &lt;span&gt;&lt;span&gt;E=mc2E = mc^2&lt;/span&gt;&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;E&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;m&lt;/span&gt;&lt;span&gt;&lt;span&gt;c&lt;/span&gt;&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;span&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Support for image captions&lt;/h4&gt;
+&lt;div&gt;&lt;figure&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;pre&gt;&lt;code&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;![&lt;/span&gt;&lt;span&gt;Image caption&lt;/span&gt;&lt;span&gt;](&lt;/span&gt;&lt;span&gt;image-url&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;p&gt;The result will be displayed as:&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;https://pub-acdbc21bc3964d18a684b0c51010a4e5.r2.dev/slate-blog-preview.png&quot; alt=&quot;Slate Blog Preview&quot; /&gt;&lt;figcaption&gt;Slate Blog Preview&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h2&gt;Updates&lt;/h2&gt;
+&lt;h3&gt;Version 1.3.0&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Support Social Links&lt;/li&gt;
+&lt;li&gt;Optimize RSS article detail generation.&lt;/li&gt;
+&lt;li&gt;Add a script to synchronize the latest slate-blog version&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Version 1.2.0&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Support i18n (English and Chinese)&lt;/li&gt;
+&lt;li&gt;Fixed known issues&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Version 1.1.1&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed known issues&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Version 1.1.0&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Upgraded to support &lt;a href=&quot;https://tailwindcss.com/blog/tailwindcss-v4&quot;&gt;Tailwind CSS v4.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Added dark mode support&lt;/li&gt;
+&lt;li&gt;Fixed known issues&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div&gt;&lt;p&gt;
+From &lt;a href=&quot;https://github.com/SlateDesign/slate-blog&quot;&gt;Slate Blog&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</content:encoded></item><item><title>Why Astro?</title><link>https://ishi555.github.io/blog/why-astro</link><guid isPermaLink="true">https://ishi555.github.io/blog/why-astro</guid><description>Astro is the web framework for building content-driven websites like blogs, marketing, and e-commerce. Astro is best-known for pioneering a new frontend architecture to reduce JavaScript overhead and complexity compared to other frameworks. If you need a website that loads fast and has great SEO, then Astro is for you.</description><pubDate>Tue, 03 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Astro is the web framework for building content-driven websites like blogs, marketing, and e-commerce. Astro is best-known for pioneering a new &lt;a href=&quot;https://docs.astro.build/en/concepts/islands/&quot;&gt;frontend architecture&lt;/a&gt; to reduce JavaScript overhead and complexity compared to other frameworks. If you need a website that loads fast and has great SEO, then Astro is for you.&lt;/p&gt;
+&lt;h2&gt;Features&lt;/h2&gt;
+&lt;p&gt;Astro is an all-in-one web framework. It includes everything you need to create a website, built-in. There are also hundreds of different &lt;a href=&quot;https://astro.build/integrations/&quot;&gt;integrations&lt;/a&gt; and &lt;a href=&quot;https://docs.astro.build/en/reference/integrations-reference/&quot;&gt;API hooks&lt;/a&gt; available to customize a project to your exact use case and needs.&lt;/p&gt;
+&lt;p&gt;Some highlights include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.astro.build/en/concepts/islands/&quot;&gt;Islands&lt;/a&gt;: A component-based web architecture optimized for content-driven websites.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.astro.build/en/guides/framework-components/&quot;&gt;UI-agnostic&lt;/a&gt;: Supports React, Preact, Svelte, Vue, Solid, HTMX, web components, and more.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.astro.build/en/guides/on-demand-rendering/&quot;&gt;Server-first&lt;/a&gt;: Moves expensive rendering off of your visitors’ devices.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.astro.build/en/basics/astro-components/&quot;&gt;Zero JS, by default&lt;/a&gt;: Less client-side JavaScript to slow your site down.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.astro.build/en/guides/content-collections/&quot;&gt;Content collections&lt;/a&gt;: Organize, validate, and provide TypeScript type-safety for your Markdown content.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.astro.build/en/guides/integrations-guide/&quot;&gt;Customizable&lt;/a&gt;: Tailwind, MDX, and hundreds of integrations to choose from.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Design Principles&lt;/h2&gt;
+&lt;p&gt;Here are five core design principles to help explain why we built Astro, the problems that it exists to solve, and why Astro may be the best choice for your project or team.&lt;/p&gt;
+&lt;p&gt;Astro is…&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.astro.build/en/concepts/why-astro/#content-driven&quot;&gt;Content-driven&lt;/a&gt;: Astro was designed to showcase your content.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.astro.build/en/concepts/why-astro/#server-first&quot;&gt;Server-first&lt;/a&gt;: Websites run faster when they render HTML on the server.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.astro.build/en/concepts/why-astro/#fast-by-default&quot;&gt;Fast by default&lt;/a&gt;: It should be impossible to build a slow website in Astro.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.astro.build/en/concepts/why-astro/#easy-to-use&quot;&gt;Easy to use&lt;/a&gt;: You don’t need to be an expert to build something with Astro.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.astro.build/en/concepts/why-astro/#developer-focused&quot;&gt;Developer-focused&lt;/a&gt;: You should have the resources you need to be successful.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Content-driven&lt;/h3&gt;
+&lt;p&gt;Astro was designed for building content-rich websites. This includes marketing sites, publishing sites, documentation sites, blogs, portfolios, landing pages, community sites, and e-commerce sites. If you have content to show, it needs to reach your reader quickly.&lt;/p&gt;
+&lt;p&gt;By contrast, most modern web frameworks were designed for building web applications. These frameworks excel at building more complex, application-like experiences in the browser: logged-in admin dashboards, inboxes, social networks, todo lists, and even native-like applications like &lt;a href=&quot;https://figma.com/&quot;&gt;Figma&lt;/a&gt; and &lt;a href=&quot;https://ping.gg/&quot;&gt;Ping&lt;/a&gt;. However with that complexity, they can struggle to provide great performance when delivering your content.&lt;/p&gt;
+&lt;p&gt;Astro’s focus on content from its beginnings as a static site builder have allowed Astro to &lt;strong&gt;sensibly scale up to performant, powerful, dynamic web applications&lt;/strong&gt; that still respect your content and your audience. Astro’s unique focus on content lets Astro make tradeoffs and deliver unmatched performance features that wouldn’t make sense for more application-focused web frameworks to implement.&lt;/p&gt;
+&lt;h3&gt;Server-first&lt;/h3&gt;
+&lt;p&gt;Astro leverages server rendering over client-side rendering in the browser as much as possible. This is the same approach that traditional server-side frameworks — PHP, WordPress, Laravel, Ruby on Rails, etc. — have been using for decades. But you don’t need to learn a second server-side language to unlock it. With Astro, everything is still just HTML, CSS, and JavaScript (or TypeScript, if you prefer).&lt;/p&gt;
+&lt;p&gt;This approach stands in contrast to other modern JavaScript web frameworks like Next.js, SvelteKit, Nuxt, Remix, and others. These frameworks were built for client-side rendering of your entire website and include server-side rendering mainly to address performance concerns. This approach has been dubbed the &lt;strong&gt;Single-Page App (SPA)&lt;/strong&gt;, in contrast with Astro’s &lt;strong&gt;Multi-Page App (MPA)&lt;/strong&gt; approach.&lt;/p&gt;
+&lt;p&gt;The SPA model has its benefits. However, these come at the expense of additional complexity and performance tradeoffs. These tradeoffs harm page performance — critical metrics like &lt;a href=&quot;https://web.dev/interactive/&quot;&gt;Time to Interactive (TTI)&lt;/a&gt; — which doesn’t make much sense for content-focused websites where first-load performance is essential.&lt;/p&gt;
+&lt;p&gt;Astro’s server-first approach allows you to opt in to client-side rendering only if, and exactly as, necessary. You can choose to add UI framework components that run on the client. You can take advantage of Astro’s view transitions router for finer control over select page transitions and animations. Astro’s server-first rendering, either pre-rendered or on-demand, provides performant defaults that you can enhance and extend.&lt;/p&gt;
+&lt;h3&gt;Fast by default&lt;/h3&gt;
+&lt;p&gt;Good performance is always important, but it is especially critical for websites whose success depends on displaying your content. It has been well-proven that poor performance loses you engagement, conversions, and money. For example:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Every 100ms faster → 1% more conversions (&lt;a href=&quot;https://web.dev/why-speed-matters/&quot;&gt;Mobify&lt;/a&gt;, earning +$380,000/yr)&lt;/li&gt;
+&lt;li&gt;50% faster → 12% more sales (&lt;a href=&quot;https://www.digitalcommerce360.com/2010/08/19/web-accelerator-revs-conversion-and-sales-autoanything/&quot;&gt;AutoAnything&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;20% faster → 10% more conversions (&lt;a href=&quot;https://www.thinkwithgoogle.com/intl/en-gb/marketing-strategies/app-and-mobile/furniture-village-and-greenlight-slash-page-load-times-boosting-user-experience/&quot;&gt;Furniture Village&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;40% faster → 15% more sign-ups (&lt;a href=&quot;https://medium.com/pinterest-engineering/driving-user-growth-with-performance-improvements-cfc50dafadd7&quot;&gt;Pinterest&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;850ms faster → 7% more conversions (&lt;a href=&quot;https://web.dev/why-speed-matters/&quot;&gt;COOK&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Every 1 second slower → 10% fewer users (&lt;a href=&quot;https://www.creativebloq.com/features/how-the-bbc-builds-websites-that-scale&quot;&gt;BBC&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In many web frameworks, it is easy to build a website that looks great during development only to load painfully slow once deployed. JavaScript is often the culprit, since many phones and lower-powered devices rarely match the speed of a developer’s laptop.&lt;/p&gt;
+&lt;p&gt;Astro’s magic is in how it combines the two values explained above — a content focus with a server-first architecture — to make tradeoffs and deliver features that other frameworks cannot. The result is amazing web performance for every website, out of the box. Our goal: It should be nearly impossible to build a slow website with Astro.&lt;/p&gt;
+&lt;p&gt;An Astro website can &lt;a href=&quot;https://twitter.com/t3dotgg/status/1437195415439360003&quot;&gt;load 40% faster with 90%&lt;/a&gt; less JavaScript than the same site built with the most popular React web framework. But don’t take our word for it: watch Astro’s performance leave Ryan Carniato (creator of Solid.js and Marko) &lt;a href=&quot;https://youtu.be/2ZEMb_H-LYE?t=8163&quot;&gt;speechless&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Easy to use&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Astro’s goal is to be accessible to every web developer.&lt;/strong&gt; Astro was designed to feel familiar and approachable regardless of skill level or past experience with web development.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;.astro&lt;/code&gt; UI language is a superset of HTML: any valid HTML is valid Astro templating syntax! So, if you can write HTML, you can write Astro components! But, it also combines some of our favorite features borrowed from other component languages like JSX expressions (React) and CSS scoping by default (Svelte and Vue). This closeness to HTML also makes it easier to use progressive enhancement and common accessibility patterns without any overhead.&lt;/p&gt;
+&lt;p&gt;We then made sure that you could also use your favorite UI component languages that you already know, and even reuse components you might already have. React, Preact, Svelte, Vue, Solid, and others, including web components, are all supported for authoring UI components in an Astro project.&lt;/p&gt;
+&lt;p&gt;Astro was designed to be less complex than other UI frameworks and languages. One big reason for this is that Astro was designed to render on the server, not in the browser. That means that you don’t need to worry about: hooks (React), stale closures (also React), refs (Vue), observables (Svelte), atoms, selectors, reactions, or derivations. There is no reactivity on the server, so all of that complexity melts away.&lt;/p&gt;
+&lt;p&gt;One of our favorite sayings is: &lt;strong&gt;opt in to complexity&lt;/strong&gt;. We designed Astro to remove as much “required complexity” as possible from the developer experience, especially as you onboard for the first time. You can build a “Hello World” example website in Astro with just HTML and CSS. Then, when you need to build something more powerful, you can incrementally reach for new features and APIs as you go.&lt;/p&gt;
+&lt;h3&gt;Developer-focused&lt;/h3&gt;
+&lt;p&gt;We strongly believe that Astro is only a successful project if people love using it. Astro has everything you need to support you as you build with Astro.&lt;/p&gt;
+&lt;p&gt;Astro invests in developer tools like a great CLI experience from the moment you open your terminal, an official VS Code extension for syntax highlighting, TypeScript and Intellisense, and documentation actively maintained by hundreds of community contributors and available in 14 languages.&lt;/p&gt;
+&lt;p&gt;Our welcoming, respectful, inclusive community on Discord is ready to provide support, motivation, and encouragement. Open a &lt;code&gt;#support&lt;/code&gt; thread to get help with your project. Visit our dedicated &lt;code&gt;#showcase&lt;/code&gt;channel for sharing your Astro sites, blog posts, videos, and even work-in-progress for safe feedback and constructive criticism. Participate in regular live events such as our weekly community call, “Talking and Doc’ing,” and API/bug bashes.&lt;/p&gt;
+&lt;p&gt;As an open-source project, we welcome contributions of all types and sizes from community members of all experience levels. You are invited to join in roadmap discussions to shape the future of Astro, and we hope you’ll contribute fixes and features to the core codebase, compiler, docs, language tools, websites, and other projects.&lt;/p&gt;
+&lt;div&gt;&lt;p&gt;
+From &lt;a href=&quot;https://docs.astro.build/en/concepts/why-astro/&quot;&gt;Why Astro?&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</content:encoded></item><item><title>Obsidian Vault Template</title><link>https://ishi555.github.io/blog/obsidian-vault-template</link><guid isPermaLink="true">https://ishi555.github.io/blog/obsidian-vault-template</guid><description>I use Obsidian to think, take notes, write essays, and publish this site. This is my bottom-up approach to note-taking and organizing things I am interested in. It embraces chaos and laziness to create emergent structure.</description><pubDate>Tue, 16 Apr 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I use &lt;a href=&quot;https://stephango.com/obsidian&quot;&gt;Obsidian&lt;/a&gt; to think, take notes, write essays, and publish this site. This is my bottom-up approach to note-taking and organizing things I am interested in. It embraces chaos and laziness to create emergent structure.&lt;/p&gt;
+&lt;p&gt;In Obsidian, a “vault” is simply a folder of files. This is important because it adheres to my &lt;a href=&quot;https://stephango.com/file-over-app&quot;&gt;File over app&lt;/a&gt; philosophy. If you want to create digital artifacts that last, they must be files you can control, in formats that are easy to retrieve and read. Obsidian gives you that freedom.&lt;/p&gt;
+&lt;p&gt;The following is in no way dogmatic, just one example of how you can use Obsidian. Take the parts you like.&lt;/p&gt;
+&lt;h2&gt;Get started&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/kepano/kepano-obsidian/archive/refs/heads/main.zip&quot;&gt;Download the vault&lt;/a&gt; or clone it from &lt;a href=&quot;https://github.com/kepano/kepano-obsidian&quot;&gt;the Github repo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Unzip the &lt;code&gt;.zip&lt;/code&gt; file to a folder of your choosing&lt;/li&gt;
+&lt;li&gt;In Obsidian open the folder as a vault&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Theme and related tools&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;My theme &lt;a href=&quot;https://stephango.com/minimal&quot;&gt;Minimal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;My &lt;a href=&quot;https://stephango.com/obsidian-web-clipper&quot;&gt;web clipper&lt;/a&gt; to save articles and pages from the web&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://obsidian.md/sync&quot;&gt;Obsidian Sync&lt;/a&gt; to sync notes between my desktop, phone and tablet&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Plugins&lt;/h2&gt;
+&lt;p&gt;Some of my templates depend on plugins:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/blacksmithgu/obsidian-dataview&quot;&gt;Dataview&lt;/a&gt; for overview notes&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/javalent/obsidian-leaflet&quot;&gt;Leaflet&lt;/a&gt; for maps&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Folders&lt;/h2&gt;
+&lt;p&gt;I use very few folders. I avoid folders because many of my entries belong to more than one area of thought. My system is oriented towards speed and laziness. I don’t want the overhead of having to consider where something should go.&lt;/p&gt;
+&lt;p&gt;My personal notes are in the root of my vault. These are my journal entries, essays, &lt;a href=&quot;https://stephango.com/evergreen-notes&quot;&gt;evergreen&lt;/a&gt; notes, and personal ideas. If a note is in the root I know it’s something I came up with. I do not use the file explorer much for navigation, instead I navigate mostly using the quick switcher or clicking links.&lt;/p&gt;
+&lt;p&gt;If you want to use this vault as a starting point the Categories and Templates folders contain everything you need.&lt;/p&gt;
+&lt;p&gt;The folders I use:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Attachments&lt;/strong&gt; for images, audio, videos, PDFs, etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Clippings&lt;/strong&gt; for articles and web pages captured with my web clipper written by other people.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Daily&lt;/strong&gt; for my daily notes, all named YYYY-MM-DD.md.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;References&lt;/strong&gt; for anything that refers to something that exists outside of my vault, e.g. books, movies, places, people, podcasts, etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Templates&lt;/strong&gt; for templates. In my real personal vault the “Templates” folder is nested under “Meta” which also contains my personal style guide and other random notes about the vault.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The folders I don’t use, but have created here for the sake of clarity. The notes in these folders would be in the root of my personal vault:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Categories&lt;/strong&gt; contains top-level overviews of notes per category (e.g. books, movies, podcasts, etc).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Notes&lt;/strong&gt; contains example notes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Structure, categories, and tags&lt;/h2&gt;
+&lt;p&gt;My notes are primarily organized using the category property. Categories are always links which makes it easy to get back to my top-level overviews. Some other rules I follow in my vault:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Avoid splitting content into multiple vaults.&lt;/li&gt;
+&lt;li&gt;Avoid folders for organization.&lt;/li&gt;
+&lt;li&gt;Avoid non-standard Markdown.&lt;/li&gt;
+&lt;li&gt;Always pluralize categories and tags.&lt;/li&gt;
+&lt;li&gt;Use &lt;code&gt;YYYY-MM-DD&lt;/code&gt; dates everywhere.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Having a &lt;a href=&quot;https://stephango.com/style&quot;&gt;consistent style&lt;/a&gt; collapses hundreds of future decisions into one, and gives me focus. I always pluralize tags so I never have to wonder what to name new tags. Choose the rules that feel comfortable to you.&lt;/p&gt;
+&lt;h2&gt;Templates and properties&lt;/h2&gt;
+&lt;p&gt;Almost every note I create starts from a &lt;a href=&quot;https://github.com/kepano/kepano-obsidian/tree/main/Templates&quot;&gt;template&lt;/a&gt;. I use templates heavily because they allow me to lazily add information that will help me find the note later. I have a template for every category with properties at the top, to capture data such as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dates — created, start, end, published&lt;/li&gt;
+&lt;li&gt;People — author, director, artist, cast, host, guests&lt;/li&gt;
+&lt;li&gt;Themes — grouping by genre, type, topic, related notes&lt;/li&gt;
+&lt;li&gt;Locations — neighborhood, city, coordinates&lt;/li&gt;
+&lt;li&gt;Ratings — more on this below&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A few rules I follow for properties:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Property names and values should aim to be reusable across categories. This allows me to find things across categories, e.g. genre is shared across all media types, which means I can see an archive of Sci-fi books, movies and shows in one place.&lt;/li&gt;
+&lt;li&gt;Templates should aim to be composable, e.g. Person and Author are two different templates that can be added to the same note.&lt;/li&gt;
+&lt;li&gt;Short property names are faster to type, e.g. start instead of startdate.&lt;/li&gt;
+&lt;li&gt;Default to list type properties instead of text if there is any chance it might contain more than one link or value in the future.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The &lt;a href=&quot;https://github.com/kepano/kepano-obsidian/blob/main/.obsidian/types.json&quot;&gt;.obsidian/types.json&lt;/a&gt; file lists which properties are assigned to which types (i.e. date, number, text, etc).&lt;/p&gt;
+&lt;h2&gt;Rating system&lt;/h2&gt;
+&lt;p&gt;Anything with a rating uses an integer from 1 to 7:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;7 — Perfect, must try, life-changing, go out of your way to seek this out&lt;/li&gt;
+&lt;li&gt;6 — Excellent, worth repeating&lt;/li&gt;
+&lt;li&gt;5 — Good, don’t go out of your way, but enjoyable&lt;/li&gt;
+&lt;li&gt;4 — Passable, works in a pinch&lt;/li&gt;
+&lt;li&gt;3 — Bad, don’t do this if you can&lt;/li&gt;
+&lt;li&gt;2 — Atrocious, actively avoid, repulsive&lt;/li&gt;
+&lt;li&gt;1 — Evil, life-changing in a bad way&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Why this scale? I like rating out of 7 better than 4 or 5 because I need more granularity at the top, for the good experiences, and 10 is too granular.&lt;/p&gt;
+&lt;h2&gt;Publishing to the web&lt;/h2&gt;
+&lt;p&gt;This site is written, edited, and published directly from Obsidian. To do this, I break one of my rules listed above — I have a separate vault for my site. I use a static site generator called &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; to automatically compile my notes into a website and convert them from Markdown to HTML.&lt;/p&gt;
+&lt;p&gt;My publishing flow is easy to use, but a bit technical to set up. This is because I like to have full control over every aspect of my site’s layout. If you don’t need full control you might consider &lt;a href=&quot;https://obsidian.md/publish&quot;&gt;Obsidian Publish&lt;/a&gt; which is more user-friendly, and what I use for my &lt;a href=&quot;https://minimal.guide/publish/download&quot;&gt;Minimal documentation site&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For this site, I push notes from Obsidian to a GitHub repo using the &lt;a href=&quot;https://obsidian.md/plugins?id=obsidian-git&quot;&gt;Obsidian Git&lt;/a&gt; plugin. The notes are then automatically compiled using &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll &lt;/a&gt;with my web host &lt;a href=&quot;https://www.netlify.com/&quot;&gt;Netlify&lt;/a&gt;. I also use my &lt;a href=&quot;https://stephango.com/permalink-opener&quot;&gt;Permalink Opener&lt;/a&gt; plugin to quickly open notes in the browser so I can compare the draft and live versions.&lt;/p&gt;
+&lt;p&gt;The color palette is &lt;a href=&quot;https://stephango.com/flexoki&quot;&gt;Flexoki&lt;/a&gt;, which I created for this site. My Jekyll template is not public, but you can get similar results from &lt;a href=&quot;https://github.com/maximevaillancourt/digital-garden-jekyll-template&quot;&gt;this template&lt;/a&gt; by Maxime Vaillancourt. There are also many alternatives to Jekyll you can use to compile your site such as &lt;a href=&quot;https://quartz.jzhao.xyz/&quot;&gt;Quartz&lt;/a&gt;, &lt;a href=&quot;https://astro.build/&quot;&gt;Astro&lt;/a&gt;, &lt;a href=&quot;https://www.11ty.dev/&quot;&gt;Eleventy&lt;/a&gt;, and &lt;a href=&quot;https://gohugo.io/&quot;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
+&lt;div&gt;&lt;p&gt;
+From &lt;a href=&quot;https://stephango.com/vault&quot;&gt;Obsidian Vault Template&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</content:encoded></item><item><title>Building a toast component</title><link>https://ishi555.github.io/blog/sonner-getting-started</link><guid isPermaLink="true">https://ishi555.github.io/blog/sonner-getting-started</guid><description>Earlier this year, I built a Toast library for React called Sonner. In this article, I&apos;ll show you some of the lessons I&apos;ve learned and mistakes I made while building it.</description><pubDate>Tue, 05 Sep 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Earlier this year, I built a Toast library for React called &lt;a href=&quot;https://sonner.emilkowal.ski/&quot;&gt;Sonner&lt;/a&gt;. In this article, I’ll show you some of the lessons I’ve learned and mistakes I made while building it.&lt;/p&gt;
+&lt;h2&gt;Animations&lt;/h2&gt;
+&lt;p&gt;Initially, I used CSS keyframes for enter and exit animations, but they aren’t interruptible. A CSS transition can be interrupted and smoothly transition to a new value, even before the first transition has finished. You can see the difference below.&lt;/p&gt;
+&lt;p&gt;To transition the toast when it enters the screen, essentially to mimic the enter animation, we used &lt;code&gt;useEffect&lt;/code&gt; to set the mounted state to true after the first render. This way, the toast is rendered with transform: &lt;code&gt;translateY(100%)&lt;/code&gt; and then transitions to &lt;code&gt;transform: translateY(0)&lt;/code&gt;. The style is based on a data attribute.&lt;/p&gt;
+&lt;div&gt;&lt;figure&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;pre&gt;&lt;code&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;React.&lt;/span&gt;&lt;span&gt;useEffect&lt;/span&gt;&lt;span&gt;(() &lt;/span&gt;&lt;span&gt;=&amp;gt;&lt;/span&gt;&lt;span&gt; {  &lt;/span&gt;&lt;span&gt;setMounted&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;true&lt;/span&gt;&lt;span&gt;);}, []);&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;//...&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;&amp;lt;&lt;/span&gt;&lt;span&gt;li&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;data-mounted&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;{mounted}&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;h2&gt;Stacking toasts&lt;/h2&gt;
+&lt;p&gt;To create the stacking effect, we multiply the gap between toasts by the index of the toast to get the y position. It’s worth noting that every toast has &lt;code&gt;position: absolute&lt;/code&gt; to make stacking easier. We also scale them down by 0.05 * index to create the illusion of depth. Here’s the simplified CSS for it:&lt;/p&gt;
+&lt;div&gt;&lt;figure&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;pre&gt;&lt;code&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;[data&lt;/span&gt;&lt;span&gt;-&lt;/span&gt;&lt;span&gt;sonner&lt;/span&gt;&lt;span&gt;-&lt;/span&gt;&lt;span&gt;toast][data&lt;/span&gt;&lt;span&gt;-&lt;/span&gt;&lt;span&gt;expanded&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;&quot;false&quot;&lt;/span&gt;&lt;span&gt;][data&lt;/span&gt;&lt;span&gt;-&lt;/span&gt;&lt;span&gt;front&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;&quot;false&quot;&lt;/span&gt;&lt;span&gt;] {&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;  &lt;/span&gt;&lt;span&gt;--&lt;/span&gt;&lt;span&gt;scale&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;var&lt;/span&gt;&lt;span&gt;(--toasts-before) * 0.05 + 1;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;  &lt;/span&gt;&lt;span&gt;--&lt;/span&gt;&lt;span&gt;y&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;translateY&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;calc&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;var&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;--&lt;/span&gt;&lt;span&gt;lift&lt;/span&gt;&lt;span&gt;-&lt;/span&gt;&lt;span&gt;amount) &lt;/span&gt;&lt;span&gt;*&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;var&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;--&lt;/span&gt;&lt;span&gt;toasts&lt;/span&gt;&lt;span&gt;-&lt;/span&gt;&lt;span&gt;before))) &lt;/span&gt;&lt;span&gt;scale&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;calc&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;-&lt;/span&gt;&lt;span&gt;1&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;*&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;var&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;--&lt;/span&gt;&lt;span&gt;scale))&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;    &lt;/span&gt;&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;p&gt;This works great until you have toasts with different heights, they won’t stick out evenly. We fix it by simply making all the toasts the height of the toast in front when in stacked mode. Here’s how the toasts would look with different heights:&lt;/p&gt;
+&lt;p&gt;Add toast&lt;/p&gt;
+&lt;h2&gt;Swiping&lt;/h2&gt;
+&lt;p&gt;The toasts can be swiped down to dismiss. That’s just a simple event listener on the toast which updates a variable responsible for the &lt;code&gt;translateY&lt;/code&gt; value.&lt;/p&gt;
+&lt;div&gt;&lt;figure&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;pre&gt;&lt;code&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;// This is a simplified version of the code&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;onMove&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; (&lt;/span&gt;&lt;span&gt;event&lt;/span&gt;&lt;span&gt;) &lt;/span&gt;&lt;span&gt;=&amp;gt;&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;  &lt;/span&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;yPosition&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; event.clientY &lt;/span&gt;&lt;span&gt;-&lt;/span&gt;&lt;span&gt; pointerStartRef.current.y;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;  &lt;/span&gt;&lt;/span&gt;&lt;span&gt;toastRef.current?.style.&lt;/span&gt;&lt;span&gt;setProperty&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;--swipe-amount&quot;&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;`${&lt;/span&gt;&lt;span&gt;yPosition&lt;/span&gt;&lt;span&gt;}px`&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;};&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;p&gt;The swipe is momentum-based, meaning you don’t have to swipe until a specific threshold is met to remove the toast. If the swipe movement is fast enough, the toast will still be dismissed because the velocity is high enough.&lt;/p&gt;
+&lt;div&gt;&lt;figure&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;pre&gt;&lt;code&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;timeTaken&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;new&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;Date&lt;/span&gt;&lt;span&gt;().&lt;/span&gt;&lt;span&gt;getTime&lt;/span&gt;&lt;span&gt;() &lt;/span&gt;&lt;span&gt;-&lt;/span&gt;&lt;span&gt; dragStartTime.current.&lt;/span&gt;&lt;span&gt;getTime&lt;/span&gt;&lt;span&gt;();&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;velocity&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; Math.&lt;/span&gt;&lt;span&gt;abs&lt;/span&gt;&lt;span&gt;(swipeAmount) &lt;/span&gt;&lt;span&gt;/&lt;/span&gt;&lt;span&gt; timeTaken;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;// Remove if the threshold is met or velocity is high enough&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;if&lt;/span&gt;&lt;span&gt; (Math.&lt;/span&gt;&lt;span&gt;abs&lt;/span&gt;&lt;span&gt;(swipeAmount) &lt;/span&gt;&lt;span&gt;&amp;gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;SWIPE_THRESHOLD&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;||&lt;/span&gt;&lt;span&gt; velocity &lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;0.11&lt;/span&gt;&lt;span&gt;) {&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;  &lt;/span&gt;&lt;span&gt;deleteToast&lt;/span&gt;&lt;span&gt;();&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;h2&gt;Spatial consistency&lt;/h2&gt;
+&lt;p&gt;Initially, the toast was entering from the bottom, and you could swipe it to the right, as shown in &lt;a href=&quot;https://twitter.com/emilkowalski_/status/1503372086038962178&quot;&gt;this tweet&lt;/a&gt;. However, that didn’t feel natural since the toast didn’t follow a symmetric path. If something enters from the bottom, it should also exit in the same direction. I learned this principle from the &lt;a href=&quot;https://developer.apple.com/videos/play/wwdc2018/803/&quot;&gt;Designing Fluid Interfaces&lt;/a&gt; talk from Apple. It’s amazing and I highly recommend watching it.&lt;/p&gt;
+&lt;p&gt;If you are interested in this type of stuff, then you might enjoy my course on animations, where I cover this and much more — &lt;a href=&quot;https://animations.dev/&quot;&gt;animations.dev&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Expanding toasts&lt;/h2&gt;
+&lt;p&gt;We calculate the expanded position of each toast by adding the heights of all preceding toasts and the gap between them. This value will become the new &lt;code&gt;translateY&lt;/code&gt; when the user hovers over the toast area.&lt;/p&gt;
+&lt;div&gt;&lt;figure&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;pre&gt;&lt;code&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;toastsHeightBefore&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; React.&lt;/span&gt;&lt;span&gt;useMemo&lt;/span&gt;&lt;span&gt;(() &lt;/span&gt;&lt;span&gt;=&amp;gt;&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;  &lt;/span&gt;&lt;span&gt;return&lt;/span&gt;&lt;span&gt; heights.&lt;/span&gt;&lt;span&gt;reduce&lt;/span&gt;&lt;span&gt;((&lt;/span&gt;&lt;span&gt;prev&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;curr&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;reducerIndex&lt;/span&gt;&lt;span&gt;) &lt;/span&gt;&lt;span&gt;=&amp;gt;&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;// Calculate offset up until current toast&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;if&lt;/span&gt;&lt;span&gt; (reducerIndex &lt;/span&gt;&lt;span&gt;&amp;gt;=&lt;/span&gt;&lt;span&gt; heightIndex) {&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;      &lt;/span&gt;&lt;span&gt;return&lt;/span&gt;&lt;span&gt; prev;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;      &lt;/span&gt;&lt;/span&gt;&lt;span&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;      &lt;/span&gt;&lt;span&gt;return&lt;/span&gt;&lt;span&gt; prev &lt;/span&gt;&lt;span&gt;+&lt;/span&gt;&lt;span&gt; curr.height;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;    &lt;/span&gt;&lt;/span&gt;&lt;span&gt;}, &lt;/span&gt;&lt;span&gt;0&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;  &lt;/span&gt;&lt;/span&gt;&lt;span&gt;}, [heights, heightIndex]);&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;// ...&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;offset&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; React.&lt;/span&gt;&lt;span&gt;useMemo&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;  &lt;/span&gt;&lt;/span&gt;&lt;span&gt;() &lt;/span&gt;&lt;span&gt;=&amp;gt;&lt;/span&gt;&lt;span&gt; heightIndex &lt;/span&gt;&lt;span&gt;*&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;GAP&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;+&lt;/span&gt;&lt;span&gt; toastsHeightBefore,&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;  &lt;/span&gt;&lt;/span&gt;&lt;span&gt;[heightIndex, toastsHeightBefore]&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;);&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;h2&gt;State management&lt;/h2&gt;
+&lt;p&gt;To avoid using &lt;a href=&quot;https://react.dev/reference/react/createContext&quot;&gt;context&lt;/a&gt;, we manage the state via the &lt;a href=&quot;https://javascriptpatterns.vercel.app/patterns/design-patterns/observer-pattern&quot;&gt;Observer Pattern&lt;/a&gt;. We subscribe to the observable object in the &lt;code&gt;&amp;lt;Toaster /&amp;gt;&lt;/code&gt; component. Whenever the &lt;code&gt;toast()&lt;/code&gt; function is called, the &lt;code&gt;&amp;lt;Toaster /&amp;gt;&lt;/code&gt; component (as the subscriber) is notified and updates its state. We can then render all the toasts using &lt;code&gt;Array.map()&lt;/code&gt;.&lt;/p&gt;
+&lt;div&gt;&lt;figure&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;pre&gt;&lt;code&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;function&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;Toaster&lt;/span&gt;&lt;span&gt;() {&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;  &lt;/span&gt;&lt;/span&gt;&lt;span&gt;React.&lt;/span&gt;&lt;span&gt;useEffect&lt;/span&gt;&lt;span&gt;(() &lt;/span&gt;&lt;span&gt;=&amp;gt;&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;return&lt;/span&gt;&lt;span&gt; ToastState.&lt;/span&gt;&lt;span&gt;subscribe&lt;/span&gt;&lt;span&gt;((&lt;/span&gt;&lt;span&gt;toast&lt;/span&gt;&lt;span&gt;) &lt;/span&gt;&lt;span&gt;=&amp;gt;&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;      &lt;/span&gt;&lt;span&gt;setToasts&lt;/span&gt;&lt;span&gt;((&lt;/span&gt;&lt;span&gt;toasts&lt;/span&gt;&lt;span&gt;) &lt;/span&gt;&lt;span&gt;=&amp;gt;&lt;/span&gt;&lt;span&gt; [&lt;/span&gt;&lt;span&gt;...&lt;/span&gt;&lt;span&gt;toasts, toast]);&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;    &lt;/span&gt;&lt;/span&gt;&lt;span&gt;});&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;  &lt;/span&gt;&lt;/span&gt;&lt;span&gt;}, []);&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;  &lt;/span&gt;&lt;span&gt;// ...&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;  &lt;/span&gt;&lt;span&gt;return&lt;/span&gt;&lt;span&gt; (&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;    &lt;/span&gt;&lt;/span&gt;&lt;span&gt;&amp;lt;&lt;/span&gt;&lt;span&gt;ol&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;      &lt;/span&gt;&lt;/span&gt;&lt;span&gt;{toasts.&lt;/span&gt;&lt;span&gt;map&lt;/span&gt;&lt;span&gt;((&lt;/span&gt;&lt;span&gt;toast&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;index&lt;/span&gt;&lt;span&gt;) &lt;/span&gt;&lt;span&gt;=&amp;gt;&lt;/span&gt;&lt;span&gt; (&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;        &lt;/span&gt;&lt;/span&gt;&lt;span&gt;&amp;lt;&lt;/span&gt;&lt;span&gt;Toast&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;key&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;{toast.id} &lt;/span&gt;&lt;span&gt;toast&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;{toast} /&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;      &lt;/span&gt;&lt;/span&gt;&lt;span&gt;))}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;    &lt;/span&gt;&lt;/span&gt;&lt;span&gt;&amp;lt;/&lt;/span&gt;&lt;span&gt;ol&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;  &lt;/span&gt;&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;p&gt;To create a new toast, we simply import &lt;code&gt;toast&lt;/code&gt; and call it. There’s no need for hooks or context, just a straightforward function call.&lt;/p&gt;
+&lt;div&gt;&lt;figure&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;pre&gt;&lt;code&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;import&lt;/span&gt;&lt;span&gt; { toast } &lt;/span&gt;&lt;span&gt;from&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;&quot;sonner&quot;&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;// ...&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;toast&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;My toast&quot;&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;h2&gt;Hover state&lt;/h2&gt;
+&lt;p&gt;The hover state depends on whether we are hovering over one of the toasts. However, there are also gaps between the toasts. To address this, we add an &lt;code&gt;:after&lt;/code&gt; pseudo-element to fill in these gaps, ensuring a consistent hover state. You will see these filled gaps depicted below.&lt;/p&gt;
+&lt;p&gt;Add toast&lt;/p&gt;
+&lt;h2&gt;Pointer capture&lt;/h2&gt;
+&lt;p&gt;Once we start dragging, we set the toast to capture all future pointer events. This ensures that even if the mouse or our thumb moves outside the toast while dragging, the toast remains the target of the pointer events. As a result, dragging remains possible, even if we are outside of the toast, leading to a better user experience.&lt;/p&gt;
+&lt;div&gt;&lt;figure&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;pre&gt;&lt;code&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;function&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;onPointerDown&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;event&lt;/span&gt;&lt;span&gt;) {&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;  &lt;/span&gt;&lt;/span&gt;&lt;span&gt;event.target.&lt;/span&gt;&lt;span&gt;setPointerCapture&lt;/span&gt;&lt;span&gt;(event.pointerId);&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;div&gt;&lt;p&gt;
+From &lt;a href=&quot;https://emilkowal.ski/ui/building-a-toast-component&quot;&gt;Building a toast component&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</content:encoded></item><item><title>40 questions</title><link>https://ishi555.github.io/blog/40-questions</link><guid isPermaLink="true">https://ishi555.github.io/blog/40-questions</guid><description>This repo maintains revisons and translations to the list of 40 questions I ask myself each year and each decade.</description><pubDate>Fri, 14 Jan 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;About&lt;/h2&gt;
+&lt;p&gt;This repo maintains revisions and translations to the list of 40 questions I ask myself each year and each decade.&lt;/p&gt;
+&lt;p&gt;See related blog posts:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://stephanango.com/40-questions&quot;&gt;40 questions to ask yourself every year&lt;/a&gt; (October 2016)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://stephanango.com/40-questions-decade&quot;&gt;40 questions to ask yourself every decade&lt;/a&gt; (January 2022)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Translations&lt;/h2&gt;
+&lt;p&gt;If you’d like to help translate the questions, you can submit your translation via pull request. Place the translated files into a folder named using the &lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes&quot;&gt;ISO 639-1&lt;/a&gt; two letter language code. See the &lt;a href=&quot;/translations&quot;&gt;/translations&lt;/a&gt; folder.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;ISO 639-1&lt;/th&gt;&lt;th&gt;Language&lt;/th&gt;&lt;th&gt;Year&lt;/th&gt;&lt;th&gt;Decade&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;en&lt;/td&gt;&lt;td&gt;English (original)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;year.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;decade.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ar&lt;/td&gt;&lt;td&gt;Arabic&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/ar/year.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/ar/decade.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;bg&lt;/td&gt;&lt;td&gt;Bulgarian&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/bg/year.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/bg/decade.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ca&lt;/td&gt;&lt;td&gt;Catalan&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/ca/year.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/ca/decade.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;da&lt;/td&gt;&lt;td&gt;Danish&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/da/year.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/da/decade.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;de&lt;/td&gt;&lt;td&gt;German&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/de/year.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/de/decade.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;el&lt;/td&gt;&lt;td&gt;Greek&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/el/year.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/el/decade.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;es&lt;/td&gt;&lt;td&gt;Spanish&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/es/year.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/es/decade.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;fa&lt;/td&gt;&lt;td&gt;Persian&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/fa/year.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/fa/decade.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;fi&lt;/td&gt;&lt;td&gt;Finnish&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/fi/year.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/fi/decade.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;fr&lt;/td&gt;&lt;td&gt;French&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/fr/year.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/fr/decade.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;hi&lt;/td&gt;&lt;td&gt;Hindi&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/hi/year.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/hi/decade.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;hu&lt;/td&gt;&lt;td&gt;Hungarian (Magyar)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/hu/year.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/hu/decade.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;id&lt;/td&gt;&lt;td&gt;Indonesian&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/id/year.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/id/decade.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;dv&lt;/td&gt;&lt;td&gt;Dhivehi&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/dv/year.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/dv/decade.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;it&lt;/td&gt;&lt;td&gt;Italian&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/it/year.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/it/decade.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ja&lt;/td&gt;&lt;td&gt;Japanese&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/ja/year.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/ja/decade.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ko&lt;/td&gt;&lt;td&gt;Korean&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/ko/year.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/ko/decade.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;lt&lt;/td&gt;&lt;td&gt;Lithuanian&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/lt/year.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;lv&lt;/td&gt;&lt;td&gt;Latvian&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/lv/year.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/lv/decade.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ml&lt;/td&gt;&lt;td&gt;Malayalam&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/ml/year.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/ml/decade.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;nl&lt;/td&gt;&lt;td&gt;Dutch&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/nl/year.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/nl/decade.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;no&lt;/td&gt;&lt;td&gt;Norwegian&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/no/year.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/no/decade.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;pl&lt;/td&gt;&lt;td&gt;Polish&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/pl/year.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/pl/decade.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;pt&lt;/td&gt;&lt;td&gt;Portuguese&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/pt/year.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/pt/decade.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ru&lt;/td&gt;&lt;td&gt;Russian&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/ru/year.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/ru/decade.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;sv&lt;/td&gt;&lt;td&gt;Swedish&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/sv/year.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/sv/decade.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ta&lt;/td&gt;&lt;td&gt;Tamil&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/ta/year.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/ta/decade.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;th&lt;/td&gt;&lt;td&gt;Thai&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/th/year.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;tl&lt;/td&gt;&lt;td&gt;Filipino&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/tl/year.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;tr&lt;/td&gt;&lt;td&gt;Turkish&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/tr/year.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/tr/decade.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;uk&lt;/td&gt;&lt;td&gt;Ukrainian&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/uk/year.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/uk/decade.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;vi&lt;/td&gt;&lt;td&gt;Vietnamese&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/vi/year.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/vi/decade.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;zh-hans&lt;/td&gt;&lt;td&gt;Chinese (simplified)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/zh-hans/year.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/zh-hans/decade.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;zh-hant&lt;/td&gt;&lt;td&gt;Chinese (traditional)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/zh-hant/year.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;/translations/zh-hant/decade.md&quot;&gt;link&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;h2&gt;40 questions to ask yourself each year&lt;/h2&gt;
+&lt;p&gt;One of my rituals at the end of each year is asking myself these forty questions. It usually takes me about a week to work my way through all of them. I find it to be one of the most valuable exercises to reflect on what happened, good and bad, and how I hope the year ahead will shape up.&lt;/p&gt;
+&lt;p&gt;What is more interesting than each individual answer are the trends that emerge after years of answering the same questions. I’ve shared this list with my family and closest friends, and always enjoy discussing answers as we reflect on the year.&lt;/p&gt;
+&lt;p&gt;Feel free to add or remove questions, and &lt;a href=&quot;https://twitter.com/kepano&quot;&gt;share your edits with me&lt;/a&gt;. This is first and foremost a personal exercise, so make it a tradition you can enjoy for years to come.&lt;/p&gt;
+&lt;h2&gt;40 questions to ask yourself each decade&lt;/h2&gt;
+&lt;p&gt;Some time ago I had answered &lt;a href=&quot;https://en.wikipedia.org/wiki/Proust_Questionnaire&quot;&gt;Proust’s famous questionnaire&lt;/a&gt;, and thought I would try answering it again. While the yearly questions help me reflect on what happened, Proust’s questions are more about personal philosophies and traits, and thus change less frequently over time.&lt;/p&gt;
+&lt;p&gt;Going through my answers to the Proust questionnaire, I was inspired to work on a new questionnaire that I could use for the next few decades. I tried create a set of questions that I would enjoy reflecting on in ten years. This list combines questions from Proust’s questionnaire, and others I’ve been collecting ad hoc.&lt;/p&gt;
+&lt;p&gt;It will be ten years before I can tell you whether this worked well or not, but join me on this journey if you’d like! Again, consider editing this list with questions you would like to know your own answers to in ten years.&lt;/p&gt;
+&lt;div&gt;&lt;p&gt;
+From &lt;a href=&quot;https://github.com/kepano/40-questions&quot;&gt;40-questions&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</content:encoded></item><item><title>LIFE IS SHORT</title><link>https://ishi555.github.io/blog/life-is-short</link><guid isPermaLink="true">https://ishi555.github.io/blog/life-is-short</guid><description>Life is short, as everyone knows. When I was a kid I used to wonder about this. Is life actually short, or are we really complaining about its finiteness? Would we be just as likely to feel life was short if we lived 10 times as long?</description><pubDate>Fri, 01 Jan 2016 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Life is short, as everyone knows. When I was a kid I used to wonder about this. Is life actually short, or are we really complaining about its finiteness? Would we be just as likely to feel life was short if we lived 10 times as long?&lt;/p&gt;
+&lt;p&gt;Since there didn’t seem any way to answer this question, I stopped wondering about it. Then I had kids. That gave me a way to answer the question, and the answer is that life actually is short.&lt;/p&gt;
+&lt;p&gt;Having kids showed me how to convert a continuous quantity, time, into discrete quantities. You only get 52 weekends with your 2 year old. If Christmas-as-magic lasts from say ages 3 to 10, you only get to watch your child experience it 8 times. And while it’s impossible to say what is a lot or a little of a continuous quantity like time, 8 is not a lot of something. If you had a handful of 8 peanuts, or a shelf of 8 books to choose from, the quantity would definitely seem limited, no matter what your lifespan was.&lt;/p&gt;
+&lt;p&gt;Ok, so life actually is short. Does it make any difference to know that?&lt;/p&gt;
+&lt;p&gt;It has for me. It means arguments of the form “Life is too short for x” have great force. It’s not just a figure of speech to say that life is too short for something. It’s not just a synonym for annoying. If you find yourself thinking that life is too short for something, you should try to eliminate it if you can.&lt;/p&gt;
+&lt;p&gt;When I ask myself what I’ve found life is too short for, the word that pops into my head is “bullshit.” I realize that answer is somewhat tautological. It’s almost the definition of bullshit that it’s the stuff that life is too short for. And yet bullshit does have a distinctive character. There’s something fake about it. It’s the junk food of experience. [1]&lt;/p&gt;
+&lt;p&gt;If you ask yourself what you spend your time on that’s bullshit, you probably already know the answer. Unnecessary meetings, pointless disputes, bureaucracy, posturing, dealing with other people’s mistakes, traffic jams, addictive but unrewarding pastimes.&lt;/p&gt;
+&lt;p&gt;There are two ways this kind of thing gets into your life: it’s either forced on you, or it tricks you. To some extent you have to put up with the bullshit forced on you by circumstances. You need to make money, and making money consists mostly of errands. Indeed, the law of supply and demand ensures that: the more rewarding some kind of work is, the cheaper people will do it. It may be that less bullshit is forced on you than you think, though. There has always been a stream of people who opt out of the default grind and go live somewhere where opportunities are fewer in the conventional sense, but life feels more authentic. This could become more common.&lt;/p&gt;
+&lt;p&gt;You can do it on a smaller scale without moving. The amount of time you have to spend on bullshit varies between employers. Most large organizations (and many small ones) are steeped in it. But if you consciously prioritize bullshit avoidance over other factors like money and prestige, you can probably find employers that will waste less of your time.&lt;/p&gt;
+&lt;p&gt;If you’re a freelancer or a small company, you can do this at the level of individual customers. If you fire or avoid toxic customers, you can decrease the amount of bullshit in your life by more than you decrease your income.&lt;/p&gt;
+&lt;p&gt;But while some amount of bullshit is inevitably forced on you, the bullshit that sneaks into your life by tricking you is no one’s fault but your own. And yet the bullshit you choose may be harder to eliminate than the bullshit that’s forced on you. Things that lure you into wasting your time have to be really good at tricking you. An example that will be familiar to a lot of people is arguing online. When someone contradicts you, they’re in a sense attacking you. Sometimes pretty overtly. Your instinct when attacked is to defend yourself. But like a lot of instincts, this one wasn’t designed for the world we now live in. Counterintuitive as it feels, it’s better most of the time not to defend yourself. Otherwise these people are literally taking your life. [2]&lt;/p&gt;
+&lt;p&gt;Arguing online is only incidentally addictive. There are more dangerous things than that. As I’ve written before, one byproduct of technical progress is that things we like tend to become more addictive. Which means we will increasingly have to make a conscious effort to avoid addictions — to stand outside ourselves and ask “is this how I want to be spending my time?”&lt;/p&gt;
+&lt;p&gt;As well as avoiding bullshit, one should actively seek out things that matter. But different things matter to different people, and most have to learn what matters to them. A few are lucky and realize early on that they love math or taking care of animals or writing, and then figure out a way to spend a lot of time doing it. But most people start out with a life that’s a mix of things that matter and things that don’t, and only gradually learn to distinguish between them.&lt;/p&gt;
+&lt;p&gt;For the young especially, much of this confusion is induced by the artificial situations they find themselves in. In middle school and high school, what the other kids think of you seems the most important thing in the world. But when you ask adults what they got wrong at that age, nearly all say they cared too much what other kids thought of them.&lt;/p&gt;
+&lt;p&gt;One heuristic for distinguishing stuff that matters is to ask yourself whether you’ll care about it in the future. Fake stuff that matters usually has a sharp peak of seeming to matter. That’s how it tricks you. The area under the curve is small, but its shape jabs into your consciousness like a pin.&lt;/p&gt;
+&lt;p&gt;The things that matter aren’t necessarily the ones people would call “important.” Having coffee with a friend matters. You won’t feel later like that was a waste of time.&lt;/p&gt;
+&lt;p&gt;One great thing about having small children is that they make you spend time on things that matter: them. They grab your sleeve as you’re staring at your phone and say “will you play with me?” And odds are that is in fact the bullshit-minimizing option.&lt;/p&gt;
+&lt;p&gt;If life is short, we should expect its shortness to take us by surprise. And that is just what tends to happen. You take things for granted, and then they’re gone. You think you can always write that book, or climb that mountain, or whatever, and then you realize the window has closed. The saddest windows close when other people die. Their lives are short too. After my mother died, I wished I’d spent more time with her. I lived as if she’d always be there. And in her typical quiet way she encouraged that illusion. But an illusion it was. I think a lot of people make the same mistake I did.&lt;/p&gt;
+&lt;p&gt;The usual way to avoid being taken by surprise by something is to be consciously aware of it. Back when life was more precarious, people used to be aware of death to a degree that would now seem a bit morbid. I’m not sure why, but it doesn’t seem the right answer to be constantly reminding oneself of the grim reaper hovering at everyone’s shoulder. Perhaps a better solution is to look at the problem from the other end. Cultivate a habit of impatience about the things you most want to do. Don’t wait before climbing that mountain or writing that book or visiting your mother. You don’t need to be constantly reminding yourself why you shouldn’t wait. Just don’t wait.&lt;/p&gt;
+&lt;p&gt;I can think of two more things one does when one doesn’t have much of something: try to get more of it, and savor what one has. Both make sense here.&lt;/p&gt;
+&lt;p&gt;How you live affects how long you live. Most people could do better. Me among them.&lt;/p&gt;
+&lt;p&gt;But you can probably get even more effect by paying closer attention to the time you have. It’s easy to let the days rush by. The “flow” that imaginative people love so much has a darker cousin that prevents you from pausing to savor life amid the daily slurry of errands and alarms. One of the most striking things I’ve read was not in a book, but the title of one: James Salter’s Burning the Days.&lt;/p&gt;
+&lt;p&gt;It is possible to slow time somewhat. I’ve gotten better at it. Kids help. When you have small children, there are a lot of moments so perfect that you can’t help noticing.&lt;/p&gt;
+&lt;p&gt;It does help too to feel that you’ve squeezed everything out of some experience. The reason I’m sad about my mother is not just that I miss her but that I think of all the things we could have done that we didn’t. My oldest son will be 7 soon. And while I miss the 3 year old version of him, I at least don’t have any regrets over what might have been. We had the best time a daddy and a 3 year old ever had.&lt;/p&gt;
+&lt;p&gt;Relentlessly prune bullshit, don’t wait to do things that matter, and savor the time you have. That’s what you do when life is short.&lt;/p&gt;
+&lt;p&gt;Notes&lt;/p&gt;
+&lt;p&gt;[1] At first I didn’t like it that the word that came to mind was one that had other meanings. But then I realized the other meanings are fairly closely related. Bullshit in the sense of things you waste your time on is a lot like intellectual bullshit.&lt;/p&gt;
+&lt;p&gt;[2] I chose this example deliberately as a note to self. I get attacked a lot online. People tell the craziest lies about me. And I have so far done a pretty mediocre job of suppressing the natural human inclination to say “Hey, that’s not true!”&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Thanks&lt;/strong&gt; to Jessica Livingston and Geoff Ralston for reading drafts of this.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.naver.com/happy_alpaca/221346692172&quot;&gt;Korean Translation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://note.com/tokyojack/n/ne4c25e990634&quot;&gt;Japanese Translation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.jianshu.com/p/682429f8ac3f&quot;&gt;Chinese Translation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div&gt;&lt;p&gt;
+From &lt;a href=&quot;https://www.paulgraham.com/vb.html&quot;&gt;LIFE IS SHORT&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</content:encoded></item></channel></rss>

@@ -1,0 +1,4 @@
+
+User-agent: *
+Allow: /
+Sitemap: https://ishi555.github.io/sitemap-index.xml
